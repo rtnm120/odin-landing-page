@@ -5,75 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <h1>Header Logo</h1>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </header>
-
-    <div class="banner">
-        <div class="text">
-            <h1 class="hero">This website is awesome</h1>
-            <p>
-                This website has some subtext that goes here under the main title.
-                It's a smaller font and the color is lower contrast
-            </p>
-            <button>Sign Up</button>
+    <div class="flex-container header">
+        <div class="flex-items flex-container">
+            <h1>Header Logo ✨</h1>
+            <ul>
+                <li>header link one</li>
+                <li>header link two</li>
+                <li>header link three</li>
+            </ul>
         </div>
-        <img src="images/" alt="This is a placeholder image">
     </div>
 
-    <div class="info">
-        <h2>Some random information.</h2>
+    <div class="flex-container banner">
+        <div class="flex-items">
+            <div class="text flex-left">
+                <h1 class="hero">This website is awesome</h1>
+                <p>
+                    This website has some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast
+                </p>
+                <button>Sign Up</button>
+            </div>
+            <div class="flex-right">
+                <img src="https://placehold.co/600x400?text=This+is+a+placeholder+image&font=roboto" alt="This is a placeholder image">
+            </div>
+        </div>
+    </div>
 
-        <div class="info-content">
-            <figure class="info-box">
-                <img src="" alt="Image 1">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure class="info-box">
-                <img src="" alt="Image 2">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure class="info-box">
-                <img src="" alt="Image 3">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure class="info-box">
-                <img src="" alt="Image 4">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
+    <div class="flex-container info">
+        <div class="flex-items">
+
+            <h2>Some random information.</h2>
             
+            <div class="info-content">
+                <figure class="info-box">
+                    <img src="" alt="Image 1">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure class="info-box">
+                    <img src="" alt="Image 2">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure class="info-box">
+                    <img src="" alt="Image 3">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure class="info-box">
+                    <img src="" alt="Image 4">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                
+            </div>
         </div>
     </div>
 
-    <figure class="quote">
-        <blockquote>
-                This is an inspiring quote, or a testimonial from a
-                customer. Maybe it's just filling up space, or maybe
-                people will actually read it. Who knows? All I know
-                is that it looks nice.
-            <figcaption class="quote">
-                -Thor, God of Thunder
-            </figcaption>
-        </blockquote>
-    </figure>
-
-    <div class="sign-up">
-        <div>
-            <title>Call to action! It' time!</title>
-            <p>Sign up for our product by clicking that button right over there!</p>
-        </div>
-        <div><button>Sign up</button></div>
+    <div class="flex-container quote">
+        <figure class="quote">
+            <blockquote>
+                    This is an inspiring quote, or a testimonial from a
+                    customer. Maybe it's just filling up space, or maybe
+                    people will actually read it. Who knows? All I know
+                    is that it looks nice.
+                <figcaption class="quote">
+                    -Thor, God of Thunder
+                </figcaption>
+            </blockquote>
+        </figure>
     </div>
 
-    <footer>
-        Copyright © rtnm120 2024
-    </footer>
+    <div class="flex-container sign-up">
+        <div class="flex-items">
+            <div class="call-to-action">
+                <div class="flex-left">
+                    <p class="bold">Call to action! It's time!</p>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="flex-right">
+                    <button>Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container footer">
+        <div class="flex-items">
+                Copyright © rtnm120 2024
+        </div>
+    </div>
 </body>
 </html>
